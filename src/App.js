@@ -1,7 +1,9 @@
 import "./App.css";
+import Tags from './Tags.js'
 
 function App() {
   return (
+      <Tags tags={["boomdotdev", "task", "tags", "react"]} />
     <div className="App">
       <section class="hero">
         <div class="hero-body">
