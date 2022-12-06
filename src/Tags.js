@@ -3,8 +3,8 @@ import React from "react";
 function Tags({tags}){
 
 return <div className="tags">
-             {tags.map((tag) => {
-                  return <div className="tag">{'#' + tag}</div>})}
+             {tags.map((tagName) => {
+                  return <div className="tag">{'#' + tagName}</div>})}
       </div>
 
 
